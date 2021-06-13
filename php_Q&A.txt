@@ -1,0 +1,66 @@
+1- Abstract class vs Interface 
+
+Type of methods: Interface can have only abstract methods. An abstract class can have abstract and non-abstract methods. 
+From Java 8, it can have default and static methods also.
+
+Final Variables: Variables declared in a Java interface are by default final. 
+An abstract class may contain non-final variables.
+
+Type of variables: Abstract class can have final, non-final, static and non-static variables. 
+The interface has only static and final variables.
+
+Implementation: Abstract class can provide the implementation of the interface. 
+Interface can’t provide the implementation of an abstract class.
+
+Inheritance vs Abstraction: A Java interface can be implemented using the keyword “implements” and 
+an abstract class can be extended using the keyword “extends”.
+
+Multiple implementations: An interface can extend another Java interface only, 
+an abstract class can extend another Java class and implement multiple Java interfaces.
+
+Accessibility of Data Members: Members of a Java interface are public by default. 
+A Java abstract class can have class members like private, protected, etc.
+
+interface cannot declare constructors or destructors.
+An abstract class can declare constructors and destructors.
+
+2. Write basic concepts of OOPS?
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction etc
+
+Inheritance has three type, are given below.
+
+Single inheritance
+Multiple inheritance
+Multi level inheritance
+
+final class and final method
+
+final class can't be extends
+final method can't be override
+
+Overloading : It occurs when two or more methods in one class have the same method name but different parameters.
+
+Overriding : It means having two methods with the same method name and parameters. 
+One of the methods is in the parent class and the other is in the child class.
+
+What is the super keyword?
+
+The super keyword is used to invoke the overridden method
+It also forwards a call from a constructor, to a constructor in the superclass.
+
+There are three types of constructors:
+
+–  Default Constructor – With no parameters.
+–  Parametric Constructor – With Parameters. Create a new instance of a class and also passing arguments simultaneously.
+–  Copy Constructor – Which creates a new object as a copy of an existing object.
+
+What are all the operators that cannot be overloaded?
+
+Following are the operators that cannot be overloaded
+Scope Resolution (::)
+Member Selection (.)
+Member selection through a pointer to function (.*)
+
